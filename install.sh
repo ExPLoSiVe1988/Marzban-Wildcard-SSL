@@ -141,7 +141,7 @@ if [[ -f "$MARZBAN_ENV" ]]; then
   grep -q "^UVICORN_SSL_KEYFILE" "$MARZBAN_ENV" || echo "UVICORN_SSL_KEYFILE = \"$KEY_FILE\"" >> "$MARZBAN_ENV"
 
   log "✅ SSL paths updated in $MARZBAN_ENV."
-  send_telegram "✅ مسیر فایل‌های SSL در فایل تنظیمات Marzban بروزرسانی شد."
+  send_telegram "✅ مسیر فایل‌های SSL در فایل تنظیمات .env بروزرسانی شد."
 else
   log "⚠️ $MARZBAN_ENV file not found."
   send_telegram "⚠️ فایل .env مرزبان پیدا نشد."

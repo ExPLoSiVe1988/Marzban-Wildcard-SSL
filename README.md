@@ -61,7 +61,7 @@ bash <(curl -s https://raw.githubusercontent.com/ExPLoSiVe1988/marzban-wildcard-
 ### 👨‍💻 توسعه‌دهنده
 
   * GitHub: [@ExPLoSiVe1988](https://github.com/ExPLoSiVe1988)
-  * Telegram: [t.me/H\_ExPLoSiVe](https://t.me/H_ExPLoSiVe)
+  * Telegram: [@H_ExPLoSiVe](https://t.me/H_ExPLoSiVe)
 *   Channel: [@Botgineer](https://t.me/Botgineer)
 
 -----

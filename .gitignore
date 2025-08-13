@@ -1,0 +1,4 @@
+.cf_env
+.env
+/var/lib/marzban/certs/*
+/opt/marzban/.env

@@ -12,7 +12,7 @@ This project provides a master script for obtaining and automatically renewing W
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=5-RiZ1qNT90" target="_blank">
-    <img src="https://img.youtube.com/vi/5-RiZ1qNT90/hqdefault.jpg" alt="Watch the video tutorial" width="480">
+    <img src="https://img.youtube.com/vi/5-RiZ1qNT90/hqdefault.jpg" alt="Watch the video tutorial" width="320">
   </a>
   <p><strong>Click the image above to watch the full video tutorial on YouTube</strong></p>
 </div>

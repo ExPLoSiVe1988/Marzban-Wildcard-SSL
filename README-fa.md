@@ -12,7 +12,7 @@
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=5-RiZ1qNT90" target="_blank">
-    <img src="https://img.youtube.com/vi/5-RiZ1qNT90/hqdefault.jpg" alt="ویدیوی آموزش کامل" width="480">
+    <img src="https://img.youtube.com/vi/5-RiZ1qNT90/hqdefault.jpg" alt="ویدیوی آموزش کامل" width="320">
   </a>
   <p><strong>برای مشاهده ویدیوی کامل آموزش، روی تصویر بالا کلیک کنید</strong></p>
 </div>

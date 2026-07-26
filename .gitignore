@@ -1,4 +1,12 @@
 .cf_env
 .env
-/var/lib/marzban/certs/*
-/opt/marzban/.env
+config
+*.pem
+*.key
+
+tests/tmp/
+*.log
+*.backup.*
+.idea/
+.vscode/
+.DS_Store

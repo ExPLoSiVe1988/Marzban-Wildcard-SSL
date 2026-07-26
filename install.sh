@@ -3,7 +3,7 @@
 set -Eeuo pipefail
 umask 077
 
-readonly VERSION="2.1.0"
+readonly VERSION="2.1.1"
 readonly PROJECT_NAME="Marzban & PasarGuard Wildcard SSL"
 readonly SCRIPT_SOURCE="${BASH_SOURCE[0]}"
 
@@ -1274,7 +1274,7 @@ restart_panel() {
       ;;
     pasarguard)
       label="PasarGuard"
-      if command_exists pasarguard && pasarguard restart; then
+      if command_exists pasarguard && pasarguard restart --no-logs; then
         success "$(tr_format panel_restarted "$label")"
         return 0
       fi
@@ -1501,7 +1501,10 @@ main() {
       ;;
     --deploy)
       load_config
-      deploy_selected_panels
+      if ! deploy_selected_panels; then
+        trap - ERR
+        return 1
+      fi
       ;;
     --status)
       show_status
